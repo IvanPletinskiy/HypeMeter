@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "141551608056",
+    "firebase_url": "https://hypemeter-270ec.firebaseio.com",
+    "project_id": "hypemeter-270ec",
+    "storage_bucket": "hypemeter-270ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141551608056:android:c7943e6e81597831",
+        "android_client_info": {
+          "package_name": "com.handen.hypemeter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141551608056-of1a723j4g5ff6vtm91tpak3j12t4t6b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.handen.hypemeter",
+            "certificate_hash": "1850d00382085ae406c93ec0d5f51eb53f460fa9"
+          }
+        },
+        {
+          "client_id": "141551608056-gtpj5u4u3k243sle3s76ib4oeukdhunr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3TQPmN7vq0x6BSlYpgQYpyjNHie53uWY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141551608056-gtpj5u4u3k243sle3s76ib4oeukdhunr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

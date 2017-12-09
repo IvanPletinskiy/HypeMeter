@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mode_categories"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#ffe0b2"
+
+    tools:context="com.handen.hypemeter.ResultActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="55dp">
+
+        <TextView
+            android:id="@+id/urlTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27sp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="25sp"
+            android:textColor="@color/light"/>
+
+        <TextView
+            android:id="@+id/coverageTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="80dp"
+            android:textColor="@color/light"
+            android:text="Уровень охвата: "
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/hypeLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Уровень хайпа:"
+            android:textColor="@color/light"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Средний уровень хайпа по стране"
+            android:textColor="@color/light"
+            android:textSize="20sp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|left"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="@color/light"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:text="Назад"
+                android:textColor="#ffffff"
+                android:textSize="25sp"/>
+        </FrameLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+
